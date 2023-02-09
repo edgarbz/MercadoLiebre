@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+header {
+    background-color: #EAC926;;
+}
+p {
+    font-size: 12px;
+    margin: 0px;
+}
+h2 {
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+   color: #39b54a;
+}
+.descripcion {
+    font-size: 16px;
+    overflow: hidden;
+    height: 0;
+    transition: height 500ms ease-out;
+
+}
+article:hover > .descripcion{
+    height: auto;
+}
+.p_nav{
+    text-align: center;
+}
+.fondo{
+    background-color: #ebebeb;
+    font-family: 'Roboto Mono', monospace;
+}
+section{
+    margin: 0px;
+    padding: 0px;
+}
+.burguer{
+    text-align: center;
+    color: #03264C;
+    margin: 0px;
+    font-size:48px;color:white;
+}
+.busqueda{
+    text-align: center;
+}
+.burguere{
+    background-color: #1259c3;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.bus{
+    font-size: 20px;
+    color: #39b54a;
+    width: 2rem;
+    height: 2rem;
+    transition: transform 500ms ease-in-out;
+}
+.bus:hover {
+    transform: rotate(-90deg);
+}
+footer{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.h2_footer{
+    font-size: 10px;
+    color: #ebebeb;
+    
+}
+.p_footer{
+color: #666;
+}
+.icon-footer{
+    margin-top: 10px;
+    color: #1259c3;
+    font-size: 2em;
+}
+article{
+    width: 25vw;
+    min-height: 25vh;
+    display: inline-block;
+    margin: 5rem 2rem;
+    background-color: white;
+    transition: box-shadow 300ms ease-in-out;
+    border-top:solid 1px #ebebeb;
+    padding: 1rem;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+article:hover {
+    box-shadow: 0 0 1rem rgba(24, 24, 24, 0.7);
+}
+article img{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.articulo_contenedor{
+    border-top: solid 2px #ebebeb;
+}
